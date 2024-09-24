@@ -1,0 +1,151 @@
+/* 样式基础设置 */
+body {
+    font-family: 'Noto Serif SC', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #31700ca3;
+}
+
+/* 页头样式 */
+header {
+    background-color: #31700ca3;
+    color: rgb(19, 3, 3);
+    padding: 20px;
+    text-align: center;
+    position: relative; /* 允许使用绝对定位 */
+}
+
+/* 设置校徽和标题的容器 */
+.header-container {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    position: relative; /* 相对定位使校徽可以在左边固定 */
+}
+
+/* 校徽样式 */
+.logo {
+    width: 230px; /* 调整校徽大小 */
+    height: auto;
+    position: absolute;
+    left: 10px; /* 固定在左侧 */
+    
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 4.5em; /* 保持较大的字体尺寸 */
+    font-weight: 1200; /* 加粗 */
+    font-family: 'Noto Serif SC', serif; /* 使用正式字体 */
+    color: #09094d; /* 黑色，正式大气 */
+    letter-spacing: 2px; /* 字母间距 */
+    text-align: center;
+}
+
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Banner 样式 */
+#home-banner img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+/* 通用 section 样式 */
+.section {
+    padding: 50px;
+    background-color: #31700ca3;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+/* 学术项目 */
+.academic-programs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.academic-programs .program {
+    background-color: #31700ca3;
+    padding: 20px;
+    width: 30%;
+    border: 1px solid #31700ca3;
+    text-align: center;
+}
+
+.academic-programs .program h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* 新闻动态 */
+.news-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.news-item {
+    background-color: #31700ca3;
+    padding: 20px;
+    width: 45%;
+    border: 1px solid #31700ca3;
+    text-align: center;
+}
+
+.news-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
